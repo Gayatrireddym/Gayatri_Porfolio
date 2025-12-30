@@ -8,7 +8,6 @@ body {
   background-color: #edfff0;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  max-width: 100%;
 }
 
 header {
@@ -22,7 +21,7 @@ nav {
   position: sticky;
   display: flex;
   justify-content: space-between;
-  padding: 0 10vh 0 10vh;
+  padding: 0 10vh 0 0;
   align-items: center;
   font-size: 18px;
   color: #1a1a1a;
@@ -33,9 +32,31 @@ nav {
   list-style: none;
 }
 
+.left {
+  margin-top: 0;
+  margin-left: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.mypic {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  margin: 2.5rem;
+  margin-bottom: 0;
+  background-image: url("mypic.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: 35vh;
+  height: 40vh;
+}
+
 .name {
   font-size: 24px;
   font-weight: 700;
+  margin-left: 50px;
 }
 
 .nav-links-hover {
@@ -72,26 +93,25 @@ main {
   min-height: calc(100vh - 20vh);
 }
 
-.big-box {
-  display: flex;
-  height: 80vh;
-  width: 80vh;
+.box {
+  height: 70vh;
+  width: 50vh;
   background-color: #af91866b;
 }
 
-.mypic {
+.details {
   position: absolute;
-  top: 95px;
-  align-items: center;
-  justify-content: center;
-  margin-left: 50vh;
-  margin-bottom: 0;
-  background-image: url("mypic.jpeg");
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  width: 50vh;
-  height: 70vh;
-  box-shadow: 10px 0 5px -2px #888;
+  margin-top: 50vh;
+  left: 20px;
+  font-size: 16px;
+}
+
+.details ul {
+  gap: 20px;
+}
+
+.details li {
+  list-style: none;
 }
 
 .text-box {
@@ -104,39 +124,6 @@ main {
   height: 70vh;
   width: 70vh;
   gap: 2vh;
-  /* background-color: #af91866b; */
-}
-
-h1 {
-  font-size: 3rem;
-}
-
-.gaya {
-  padding: 5px;
-  background-color: #af91866b;
-}
-
-.text {
-  font-size: 1.2rem;
-}
-
-.resume-link {
-  display: flex;
-  position: absolute;
-  margin: 13rem 0rem 0rem 0rem;
-  padding: 10px 20px;
-  gap: 2vh;
-  color: #1a1a1a;
-  text-decoration: none;
-  border: 2px solid #1a1a1a;
-  /* background-color: #af91866b; */
-  border-radius: 5px;
-  font-size: 16px;
-}
-
-.resume-link:hover {
-  box-shadow: 5px 5px 10px -2px #888;
-  transition: 0.2s;
 }
 
 .ver-line-top {
