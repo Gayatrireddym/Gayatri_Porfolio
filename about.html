@@ -85,7 +85,7 @@
 
         <div class="skill">
           <div class="skill-header">
-            <span>HTML, CSS, JavaScript</span>
+            <span>HTML, CSS, JavaScript - 95%</span>
           </div>
 
           <div class="progress-bar">
@@ -95,7 +95,7 @@
 
         <div class="skill">
           <div class="skill-header">
-            <span>C, Python, Java</span>
+            <span>C, Python, Java - 90%</span>
           </div>
 
           <div class="progress-bar">
@@ -105,7 +105,7 @@
 
         <div class="skill">
           <div class="skill-header">
-            <span>Critical Thinking, Aptitude</span>
+            <span>Critical Thinking, Aptitude - 80%</span>
           </div>
 
           <div class="progress-bar">
@@ -115,21 +115,28 @@
 
         <div class="skill">
           <div class="skill-header">
-            <span>Angular, React.js, Node.js</span>
+            <span>Angular, React.js, Node.js - 75%</span>
           </div>
 
           <div class="progress-bar">
             <div class="progress-fill" data-level="75"></div>
           </div>
         </div>
+
+        <div class="skill">
+          <div class="skill-header">
+            <span>MySQL, Git, npm - 70%</span>
+          </div>
+
+          <div class="progress-bar">
+            <div class="progress-fill" data-level="70"></div>
+          </div>
+        </div>
       </section>
-      <hr class="ver-line-top" />
-      <div class="ver-text">About</div>
-      <hr class="ver-line-bottom" />
     </main>
-    <!-- <footer>
+    <footer>
       <div class="footer">© 2025 Gayatri Reddy. Built with passion & code.</div>
-    </footer> -->
+    </footer>
   </body>
 </html>
 
@@ -146,7 +153,6 @@
           const text = entry.target
             .closest(".skill")
             .querySelector(".loading-text");
-          text.textContent = "Loaded ✔";
 
           observer.unobserve(entry.target);
         }

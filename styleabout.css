@@ -192,28 +192,18 @@ main {
   height: 100vh;
 }
 
-/* .footer {
-  margin-left: auto;
-  margin-top: auto;
-  margin-right: 3rem;
-  height: 10vh;
-  width: 45%;
-  background-color: #af91866b;
-  align-items: center;
-  justify-content: center;
-  font-size: 0.8rem;
-} */
-
 .skills-section {
   max-width: 620px;
   margin: 0px auto;
+  margin-bottom: 50px;
   padding: 30px;
+  margin-bottom: 0;
 }
 
 .skills-section h2 {
   text-align: center;
   font-size: 2.1rem;
-  margin-bottom: 45px;
+  margin-bottom: 20px;
   color: #1a1a1a;
 }
 
@@ -229,23 +219,28 @@ main {
 }
 
 .progress-bar {
-  background: #1a1418;
+  background: #1a1a1ab4;
   border-radius: 30px;
-  height: 14px;
+  height: 10px;
   overflow: hidden;
 }
 
 .progress-fill {
   width: 0;
   height: 100%;
-  border-radius: 30px;
   background: linear-gradient(90deg, #af9186, #d1b0a3);
   box-shadow: 0 0 12px rgba(175, 145, 134, 0.65);
   transition: width 1.6s ease;
 }
 
-/* Hover glow */
-.skill:hover .progress-fill {
-  box-shadow: 0 0 18px rgba(175, 145, 134, 0.9);
-  transform: scaleY(1.1);
+.footer {
+  display: flex;
+  margin-top: auto;
+  margin-right: 3rem;
+  height: 10vh;
+  width: 100%;
+  background-color: #af91866b;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
 }
